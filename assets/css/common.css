@@ -73,7 +73,6 @@ legend {
 }
 
 /* Font */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Noto+Sans+KR:wght@100..900&display=swap');
 @media (max-width: 767px) { html { font-size: 80%; } }
 @media (max-width: 320px) { html { font-size: 50%; } }
 
@@ -98,7 +97,7 @@ body {
 .wrap {
     display: flex;
     flex-direction: column;
-    height: 3000px
+    height: 100vh
 }
 
 h2 {
