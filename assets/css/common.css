@@ -1,0 +1,120 @@
+/* RESET */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    user-select: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+ul,
+ol,
+dl {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: top;
+}
+
+.img {
+    width: 100%;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+input,
+textarea {
+    user-select: text;
+}
+
+.blind,
+caption span,
+legend {
+  overflow: hidden;
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  text-indent: -9999px;
+}
+
+/* Color & Text */
+:root {
+    /* Color */
+    --text-default: var(--base-grey);
+    --text-primary: var(--base-green);
+    
+    --bg-grey: #F2F3F3;
+
+    --base-grey: #323438;
+    --base-white: #ffffff;
+    --base-green: #27BF6D;
+
+    /* Text */
+    --text-eng :"Inter", Helvetica, Arial, sans-serif;
+    --text-kr :"Noto Sans KR", "Dotum", "돋움", sans-serif;
+
+}
+
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Noto+Sans+KR:wght@100..900&display=swap');
+@media (max-width: 767px) { html { font-size: 80%; } }
+@media (max-width: 320px) { html { font-size: 50%; } }
+
+
+
+/* CONTENT */
+html {
+    font-size: 62.5%;
+    -webkit-overflow-scrolling: auto;
+}
+
+body {
+    color: var(--text-default);
+    font-size: 2.6rem;
+    line-height: 1.5;
+    font-family: var(--text-kr);
+    letter-spacing: -0.025em;
+    overflow-wrap: break-word;
+    -webkit-text-size-adjust: none;
+}
+
+.wrap {
+    display: flex;
+    flex-direction: column;
+    height: 3000px
+}
+
+h2 {
+    font-family: var(--text-eng);
+    font-weight: 900;
+    font-size: 4.8rem;
+}
+
+.visual {position: relative; max-height:82rem; padding:3rem 9rem 3rem 9rem;  background-color: #FFF8E6; overflow: hidden;}
+.visual::after {content: ""; position: absolute; bottom: 0; left: 0; right: 0; height: 13.4rem; background: url(/assets/images/visual_bg.png) 50% bottom no-repeat; background-size: 100% 13.3rem; }
+.visual .visual-img {position: relative; display: flex; justify-content: center; }
+.visual .visual-img img { position: relative; flex: 1; width:100%; max-width: 124.5rem; z-index: 10;}
+.visual .visual-img::after {content: ""; width:100%; height: 100%; position: fixed; top: 0; left:0; background: url(/assets/images/visual_pattern.png) 50% 0 no-repeat; background-size: 144rem auto;}
+
+.introduction {position: relative; max-width: 144rem; padding: 0 12rem; margin: 0 auto; background-color: #fff;}
+
+
+
+  
