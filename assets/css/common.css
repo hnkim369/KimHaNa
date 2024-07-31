@@ -110,7 +110,6 @@ p {
 .mt-24 {margin-top: 2.4rem !important;}
 .mt-32 {margin-top: 3.2rem !important;}
 .mt-100 {margin-top: 10rem !important;}
-.mt-120 {margin-top: 12rem !important;}
 
 .visual {position: relative; max-height:82rem; padding:3rem 9rem 3rem 9rem;  background-color: #FFF8E6; overflow: hidden;}
 .visual::after {content: ""; position: absolute; bottom: 0; left: 0; right: 0; height: 13.4rem; background: url(/KimHaNa/assets/images/visual_bg.png) 50% bottom no-repeat; background-size: 100% 13.3rem; }
@@ -124,7 +123,7 @@ p {
 .introduction .intr03 ul li {flex: 1; }
 .introduction .intr03 ul li span {display: block;}
 
-footer {position: relative; background-color: var(--bg-grey);}
+footer {position: relative; background-color: var(--bg-grey); border-top:12rem solid #fff}
 footer ul {display:flex; max-width: 144rem; margin: 0 auto; padding: 4.8rem 11rem;}
 footer ul li {flex: 0 0 auto;}
 footer ul li + li {margin-left:10rem}
