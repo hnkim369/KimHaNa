@@ -138,6 +138,7 @@ footer ul span {display: inline-block; margin-left:1.6rem; font-size: 2.4rem;}
 }
 @media (max-width: 639px) { 
     html { font-size: 36%; } 
+    .visual {padding:3rem 3rem 3rem 3rem;}
     .introduction {padding: 0 3.2rem;}
     footer ul {padding: 2.4rem 3.2rem; flex-direction: column; align-items: end;}
     footer ul li {width:35rem}
